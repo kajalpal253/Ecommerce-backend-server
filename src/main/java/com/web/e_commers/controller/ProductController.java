@@ -56,13 +56,13 @@ public class ProductController {
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteProduct(@PathVariable Long id) throws ProductException {
         String message = productService.deleteProduct(id);
-        return ResponseEntity.ok(message); // 200 OK
+        return ResponseEntity.ok(message); 
     }
 
     // ✏️ Update product quantity
     @PutMapping("/{id}")
     public ResponseEntity<Product> updateProduct(@PathVariable Long id, @RequestBody Product req) throws ProductException {
         Product updated = productService.updateProduct(id, req);
-        return ResponseEntity.ok(updated); // 200 OK
+        return ResponseEntity.ok(updated); 
     }
 }

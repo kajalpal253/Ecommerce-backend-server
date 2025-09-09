@@ -44,7 +44,7 @@ public class AuthController {
 		 this.jwtProvider=jwtProvider;
 		 this.cartService=  cartService;
 	}
-	 @PostMapping("/signup")
+	 @PostMapping("/signup") // controlling login register
 	public ResponseEntity<AuthResponse> createUserHandler(@RequestBody User user) throws UserException{
 		String email = user.getEmail();
 		String password = user.getPassword();

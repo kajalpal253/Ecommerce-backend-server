@@ -24,4 +24,4 @@ public class Size {
 		this.quantity = quantity;
 	}
 
-}
+}//modal

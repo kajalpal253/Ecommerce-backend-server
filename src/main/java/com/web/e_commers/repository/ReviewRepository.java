@@ -14,3 +14,4 @@ public interface ReviewRepository extends JpaRepository<Review,Long>{
 public List<Review>getAllProductsReview(@Param("productId") Long productId);
 
 }
+//repository

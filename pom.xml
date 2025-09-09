@@ -97,7 +97,7 @@
     <version>20240303</version>
 </dependency>
 
-
+ <!-- serurity (required with 0.11.x) -->
     <dependency>
     	<groupId>com.teli</groupId>
     	<artifactId>SpSecurity</artifactId>

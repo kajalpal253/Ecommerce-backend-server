@@ -7,3 +7,5 @@ public class ProductException extends Exception {
 	}
 
 }
+
+//they handle product exception

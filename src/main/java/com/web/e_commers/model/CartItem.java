@@ -106,4 +106,4 @@ public class CartItem {
 	
 	
 
-}
+}//modal

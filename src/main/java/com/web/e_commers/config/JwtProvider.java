@@ -16,7 +16,7 @@ public class JwtProvider {
     public String generateToken(Authentication auth) {
         return Jwts.builder()
                 .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis() + 864000000)) // 10 days
+                .setExpiration(new Date(System.currentTimeMillis() + 864000000)) 
                 .claim("email", auth.getName())
                 .signWith(key)
                 .compact();

@@ -37,4 +37,4 @@ public class AddItemRequest {
 	}
 	
 
-}
+}//request class

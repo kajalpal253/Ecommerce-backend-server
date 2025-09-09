@@ -35,7 +35,7 @@ public class OrderItem {
 	public OrderItem() {
 		
 	}
-
+	//modal
 	public OrderItem(Long id, Order order, Product product, String size, int quantity, Integer price,
 			Integer discountedPrice, Long userId, LocalDateTime deliveryDate) {
 		

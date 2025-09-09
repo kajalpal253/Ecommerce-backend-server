@@ -43,4 +43,4 @@ public class RatingServiceImplementation implements RatingService {
 		return ratingRepository.getAllProductsRating(productId);
 	}
 
-}
+}//service

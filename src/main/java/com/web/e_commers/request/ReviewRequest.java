@@ -23,4 +23,4 @@ public class ReviewRequest {
 		this.review = review;
 	}
 
-}
+}//request class

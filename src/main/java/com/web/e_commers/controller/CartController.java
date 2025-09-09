@@ -61,7 +61,7 @@ public class CartController {
         }
     }
 
-    @GetMapping("/test")
+    @GetMapping("/test") //check cart working or not
     public ResponseEntity<String> getCartTest() {
         return ResponseEntity.ok("Cart is working!");
     }

@@ -169,4 +169,4 @@ public class ProductServiceImplementation implements ProductService {
 		return filteredProducts;
 	}
 
-}
+}//service

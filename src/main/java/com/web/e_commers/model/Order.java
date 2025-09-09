@@ -166,4 +166,4 @@ private PaymentDetails paymentDetails = new PaymentDetails();
 	public void setCreateAt(LocalDateTime createAt) {
 		this.createdAt = createAt;
 	}
-}
+}//modal

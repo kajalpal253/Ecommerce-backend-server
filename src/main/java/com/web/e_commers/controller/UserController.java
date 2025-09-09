@@ -31,3 +31,5 @@ public class UserController {
     }
 
 }
+
+//they control login ,register
